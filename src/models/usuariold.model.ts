@@ -1,7 +1,7 @@
-import {Model, model, property} from '@loopback/repository';
+import {Entity, model, property} from '@loopback/repository';
 
 @model({settings: {strict: false}})
-export class Usuariold extends Model {
+export class Usuariold extends Entity {
   @property({
     type: 'string',
     id: true,
